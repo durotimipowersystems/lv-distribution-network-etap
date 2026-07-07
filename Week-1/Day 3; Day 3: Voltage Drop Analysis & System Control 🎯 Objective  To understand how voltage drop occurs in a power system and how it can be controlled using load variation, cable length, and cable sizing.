@@ -1,3 +1,7 @@
+Objective
+
+To understand how voltage drop occurs in a power system and how it can be controlled using load variation, cable length, and cable sizing.
+
 System Configuration
 Grid (33 kV, 500 MVAsc)
 → Transformer (33 / 0.415 kV, 1 MVA, Z = 5%)
