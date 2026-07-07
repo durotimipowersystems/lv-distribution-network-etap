@@ -1,0 +1,18 @@
+Day 1
+
+What I did:
+- Built Grid → Bus → Load system in ETAP
+
+What I learned:
+- Basic structure of power system modelling
+- How to connect components
+
+Problems faced:
+- locating elements on the etap interface
+
+How I solved it:
+- critical thinking while, moving the cursor along the individual elements
+
+Key observation:
+- i observed that for each cable connection i put to connect two elements together, such as the utility and bs together, there appeared to be a new bus label appear alongside
+- also, all elements do not have rating and i need to add the individual capacities befroe i can run any analysis.
