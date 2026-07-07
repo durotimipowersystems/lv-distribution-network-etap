@@ -1,0 +1,53 @@
+System Configuration
+Grid (33 kV, 500 MVAsc)
+→ Transformer (33 / 0.415 kV, 1 MVA, Z = 5%)
+→ Bus (0.415 kV)
+→ Cable (varied length and size)
+→ Lump Load (varied from 0.3 MVA to 0.75 MVA)
+
+Experiments Conducted
+Case 1: Reduced Load
+Load = 0.3 MVA
+Cable Length = 50 m
+Result: Voltage ≈ 99% (≈ 411 V)
+
+Observation:
+Low load resulted in minimal current flow and negligible voltage drop.
+
+Case 2: Reduced Cable Length
+Load = 0.75 MVA
+Cable Length = 20 m
+Result: Voltage ≈ 97.84% (≈ 406 V)
+
+Observation:
+Shorter cable reduced impedance, improving voltage at the load.
+
+Case 3: Increased Cable Size
+Load = 0.75 MVA
+Cable Length = 50 m (larger conductor)
+Result: Voltage ≈ 97%
+
+Observation:
+Increasing cable size reduced resistance, maintaining acceptable voltage despite longer distance.
+
+Additional Observation (System Failure Case)
+Load = 0.75 MVA
+Cable Length = 50 m (smaller cable)
+Result: Load flow did not converge
+
+Interpretation:
+High current through a high-impedance cable caused excessive voltage drop, leading to system instability.
+
+Key Learnings
+Voltage drop increases with load (current increase)
+Voltage drop increases with cable length (higher impedance)
+Larger cables reduce resistance and improve voltage stability
+Systems can fail to converge when operating beyond physical limits
+Acceptable voltage range: 95% – 105%
+
+Core Principle:
+Voltage Drop ∝ Current × Impedance
+
+Conclusion
+Voltage drop is a critical factor in power system design.
+Proper selection of cable size, load level, and system configuration ensures stable and efficient operation.
