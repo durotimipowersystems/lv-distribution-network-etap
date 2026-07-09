@@ -1,0 +1,126 @@
+## Week 1: Power System Fundamentals (ETAP-Based Learning)
+
+## Overview
+
+This week focused on understanding the fundamental behavior of power systems through simulation and theoretical analysis using ETAP.
+
+
+## 1. Power System Structure
+
+A basic power system consists of:
+
+- Generation (Grid)
+- Transformation (Transformer)
+- Distribution (Cables & Buses)
+- Load (Consumers)
+
+
+## 2. Load Flow Analysis
+
+### Purpose:
+To determine voltage, current, and power flow in a system under normal operation.
+
+### Key Observations:
+- Voltage decreases as load increases
+- Weak systems show greater voltage drop
+- Proper impedance data is required for convergence
+
+
+## 3. Voltage Drop
+
+Voltage drop occurs due to impedance in cables and components.
+
+Factors affecting voltage drop:
+
+- Load (current level)
+- Cable length
+- Cable size (resistance)
+
+### Key Insight:
+Higher impedance → Higher voltage drop
+
+---
+
+## 4. Short Circuit Analysis
+
+### Purpose:
+To determine fault current levels in the system.
+
+### Key Principle:
+
+Fault Current ∝ 1 / Impedance
+
+### Observations:
+- Strong systems produce higher fault current
+- Transformer impedance limits fault current
+- Fault voltage at point of fault drops to ~0
+
+
+
+## 5. Transformer Behavior
+
+- Transformer impedance plays a major role in system performance
+- Higher impedance → lower fault current
+- Larger transformers reduce system impedance and increase fault levels
+
+
+## 6. Protection Systems
+
+### Purpose:
+To detect and isolate faults quickly
+
+### Key Components:
+- Circuit breakers
+- Protection relays
+
+
+## 7. Protection Coordination
+
+### Selectivity:
+Only the nearest breaker to a fault should trip
+
+### Time Coordination:
+- Downstream breaker → faster
+- Upstream breaker → delayed
+
+### Backup Protection:
+If primary fails, upstream breaker clears the fault
+
+---
+
+## ⚡ 8. Time-Current Characteristics (TCC)
+
+Protection is based on:
+
+- Current magnitude
+- Time delay
+
+Higher current → faster tripping
+
+
+## 9. Nuisance Tripping
+
+Occurs when breakers trip during non-fault conditions:
+
+- Motor starting
+- Inrush currents
+
+Proper delay settings prevent this.
+
+
+## 10. Engineering Trade-Offs
+
+
+High Impedance gives; Low fault current, high voltage drop
+Low Impedance gives; High fault current, better voltage
+
+Design requires balancing safety and performance.
+
+
+## CONCLUSIONS
+
+Power system design is not just about running simulations, but understanding:
+
+Impedance → Voltage → Fault Current → Protection
+
+This forms the foundation of real-world power system engineering.
