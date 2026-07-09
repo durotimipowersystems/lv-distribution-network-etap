@@ -1,0 +1,78 @@
+Day 4: Protection Coordination & Breaker Operation
+
+## 🎯 Objective
+To understand how protection systems detect faults, decide when to trip, and ensure only the faulted section is isolated.
+
+
+## ⚙️ System Context
+
+Grid → Transformer → Bus → Cable → Load
+
+Fault Current at Bus ≈ 28 kA
+
+
+## Key Concepts Learned
+
+### 1. Protection Decision (WHEN to Trip)
+
+Protection systems operate based on:
+
+- Current magnitude
+- Time delay characteristics
+
+Higher fault current → Faster trip  
+Lower overcurrent → Delayed trip  
+
+This is achieved using Time-Current Characteristics (TCC).
+
+
+### 2. Types of Protection
+
+- Instantaneous Protection → Trips immediately for high faults  
+- Time-Delayed Overcurrent → Trips after a delay  
+- Inverse Time Protection → Higher current leads to faster tripping  
+
+---
+
+### 3. Selectivity (Coordination)
+
+Only the breaker closest to the fault should trip first.
+
+Example:
+
+Grid → Main Breaker → Feeder Breaker → Load
+
+- Fault at load → Feeder breaker trips first  
+- Main breaker acts as backup  
+
+
+### 4. Time Coordination
+
+Both breakers may see the same fault current, but:
+
+- Feeder breaker → Fast trip (e.g. 0.1s)  
+- Main breaker → Delayed trip (e.g. 0.5s)  
+
+This ensures proper coordination and system stability.
+
+### 5. Nuisance Tripping
+
+If a breaker is set too fast:
+
+- It may trip during non-fault conditions such as:
+  - Motor starting
+  - Transformer energization
+  - Inrush currents  
+
+This leads to unnecessary outages.
+
+
+## ⚡ Key Engineering Insight
+
+- Protection systems balance speed and stability  
+- Fast tripping prevents damage but may cause nuisance trips  
+- Delayed tripping ensures coordination and reliability  
+
+## 🏁 Conclusion
+
+Protection coordination ensures that faults are cleared quickly while maintaining system stability. Proper selection of breaker ratings, time delays, and coordination strategy is essential in real-world power system design.
