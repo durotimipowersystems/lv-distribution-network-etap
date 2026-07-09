@@ -55,3 +55,9 @@ Voltage Drop ∝ Current × Impedance
 Conclusion
 Voltage drop is a critical factor in power system design.
 Proper selection of cable size, load level, and system configuration ensures stable and efficient operation.
+
+## Key Engineering Insight
+
+- Increasing impedance reduces fault current but causes voltage drop.
+- There is a trade-off between system protection and voltage performance.
+- Proper design balances both.
