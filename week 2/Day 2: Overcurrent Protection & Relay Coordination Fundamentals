@@ -1,0 +1,73 @@
+ Overcurrent Protection & Relay Coordination Fundamentals
+Objective:
+
+Develop a clear understanding of overcurrent protection logic, including the roles of CTs, relays, and circuit breakers, and begin practical relay setting design.
+
+System Context:
+Modeled a simple LV distribution system in ETAP:
+
+Grid → Transformer (1 MVA, 33/0.415 kV)
+LV Bus → Cable → Lump Load (0.75 MVA)
+Protection: Circuit Breaker (CB1) + CT + Overcurrent Relay (OCR)
+
+Key Concepts Learned:
+1. Protection System Architecture
+CT (Current Transformer):
+Steps down high current (e.g., 1500 A → 5 A)
+Provides safe, scaled input to relay
+Relay (OCR):
+Processes current signal from CT
+Applies logic:
+Pickup threshold
+Time delay
+Instantaneous trip
+Determines when to trip
+Circuit Breaker (CB):
+Executes relay command
+Physically interrupts fault current
+
+2. Protection Logic (Core Insight)
+Protection is not about components — it is about decision timing
+Normal Load (~1043 A)	No trip
+Overload (~1200–2000 A)	Delayed trip
+Fault (>8000 A)	Instant trip
+
+3. Full Load Current Calculation
+Calculated load current:
+I = (S/(√3 x V))
+Result:
+1043 A
+
+4. Relay Setting Design (Engineering-Based)
+Pickup Current:
+Set at ~1.1–1.2 × FLC
+Selected: 1200 A
+Instantaneous Trip:
+Based on fault level margin
+Selected range: 8000 – 12000 A
+
+5. Critical Design Insight
+Instantaneous setting must NOT be too low
+→ Prevents nuisance tripping during overload conditions
+
+6. ETAP Limitation Encountered
+Relay curve libraries (IEC/IEEE) not available
+Unable to generate standard inverse TCC curves
+Adapted by focusing on:
+Logical protection behavior
+Manual setting interpretation
+
+Challenges Faced:
+Difficulty linking CT → Relay → CB properly
+Missing relay curve dropdown (library limitation)
+Misinterpretation of primary vs secondary current scaling
+Initial misunderstanding of pickup = 0 impact
+
+Breakthrough Moment:
+Transitioned from “trying to make ETAP work”
+to
+Understanding protection system behavior independent of software
+
+📌 Key Takeaway:
+
+Protection design is about system behavior and coordination, not software output.
