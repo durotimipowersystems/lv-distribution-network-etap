@@ -71,3 +71,17 @@ Understanding protection system behavior independent of software
 📌 Key Takeaway:
 
 Protection design is about system behavior and coordination, not software output.
+
+Protection Coordination (New Insight)
+Introduced selectivity principle
+Designed time coordination between:
+Downstream breaker (CB1)
+Upstream breaker (CB2)
+
+Applied grading margin:
+T upstream =T downstream +0.3 to 0.5 sec
+
+Ensured:
+Local fault isolation
+System stability
+Minimal outage impact
