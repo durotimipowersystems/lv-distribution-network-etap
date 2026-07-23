@@ -25,7 +25,6 @@ I = {0.75 x 10^6} / {√3 x 415} = 1043 A
 
 ### Relay Pickup Current
 
-\[
 I_{pickup} = 1.15 x I_{FLC} \ approx 1200 A
 
 > Pickup is set above full load current to prevent nuisance tripping while maintaining sensitivity to overload conditions.
