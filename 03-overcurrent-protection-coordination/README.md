@@ -19,15 +19,14 @@ The goal is to achieve **selectivity, reliability, and effective fault isolation
 
 ### Full Load Current
 
-\[I = \frac{0.75 x 10^6} / {√3 x 415} = 1043 A
+I = {0.75 x 10^6} / {√3 x 415} = 1043 A
 
 ---
 
 ### Relay Pickup Current
 
 \[
-I_{pickup} = 1.15 \times I_{FLC} \approx 1200 \, A
-\]
+I_{pickup} = 1.15 x I_{FLC} \ approx 1200 A
 
 > Pickup is set above full load current to prevent nuisance tripping while maintaining sensitivity to overload conditions.
 
