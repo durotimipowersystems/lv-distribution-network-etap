@@ -68,7 +68,7 @@ Transitioned from “trying to make ETAP work”
 to
 Understanding protection system behavior independent of software
 
-📌 Key Takeaway:
+Key Takeaway:
 
 Protection design is about system behavior and coordination, not software output.
 
