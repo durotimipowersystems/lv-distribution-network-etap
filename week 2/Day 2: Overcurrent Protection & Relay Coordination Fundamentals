@@ -85,3 +85,12 @@ Ensured:
 Local fault isolation
 System stability
 Minimal outage impact
+
+Backup Protection & Mis-coordination Insight;
+Understood role of backup protection (CB2)
+Designed coordination such that:
+CB1 clears local faults
+CB2 operates only on delay or upstream faults
+Identified risk of instantaneous mis-setting:
+Too low → upstream breaker trips first
+Leads to loss of selectivity
