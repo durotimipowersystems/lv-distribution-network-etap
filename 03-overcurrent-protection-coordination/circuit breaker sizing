@@ -1,0 +1,78 @@
+# Circuit Breaker Sizing
+
+Objective
+
+To understand how to properly select circuit breakers based on load current and fault current.
+
+
+## System Data
+
+Case 1:
+- Transformer = 1 MVA
+- Voltage = 415 V
+- Fault Current ≈ 28 kA
+
+Case 2:
+- Transformer = 2 MVA
+- Voltage = 415 V
+- Fault Current ≈ 50 kA
+
+
+## Key Calculations
+
+### Full Load Current (FLC)
+
+Formula:
+
+I = S / (√3 × V)
+
+Case 1:
+I ≈ 1391 A
+
+Case 2:
+I ≈ 2783 A
+
+
+## Breaker Current Rating
+
+Rule:
+
+Breaker rating ≥ 125% of FLC
+
+Case 1:
+≈ 1800 A
+
+Case 2:
+≈ 3500 – 3600 A
+
+---
+
+## Breaking Capacity
+
+Rule:
+
+Breaking capacity ≥ Fault current × safety margin
+
+Case 1:
+≈ 36 kA
+
+Case 2:
+≈ 63 kA
+
+
+## Key Concepts Learned
+
+- Breaker sizing is based on both load and fault conditions
+- Current rating and breaking capacity serve different purposes
+- Safety margins are necessary for reliable system design
+- Standard breaker sizes must be used in real applications
+
+
+##  Engineering Insight
+
+Increasing transformer size increases fault current, requiring higher breaker capacity. Proper sizing ensures both operational reliability and system protection.
+
+
+## Conclusion
+
+Breaker selection is a critical part of power system design and must be based on accurate calculations and engineering judgment rather than assumptions.
