@@ -1,1 +1,1 @@
-“Short circuit analysis performed to determine fault levels for protection design. Detailed study coming next.
+Short circuit analysis performed to determine fault levels for protection design. Detailed study coming next.
