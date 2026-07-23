@@ -32,14 +32,8 @@ I_{pickup} = 1.15 x I_{FLC} \ approx 1200 A
 ---
 
 ### Instantaneous Trip Range
-
-\[
-I_{inst} = 8 \times I_{FLC} \rightarrow 12 \times I_{FLC}
-\]
-
-\[
-= 8000 \, A \rightarrow 12000 \, A
-\]
+I_{inst} = 8 x I_{FLC} to 12 x I_{FLC}
+= 8000 A to 12000 
 
 > Instantaneous protection ensures rapid clearing of high-magnitude fault currents.
 
