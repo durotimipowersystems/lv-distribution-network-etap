@@ -19,9 +19,7 @@ The goal is to achieve **selectivity, reliability, and effective fault isolation
 
 ### Full Load Current
 
-\[
-I = \frac{0.75 \times 10^6}{\sqrt{3} \times 415} = 1043 \, A
-\]
+\[I = \frac{0.75 \times 10^6}{\sqrt{3} \times 415} = 1043 \, A\]
 
 ---
 
