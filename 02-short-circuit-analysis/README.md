@@ -16,11 +16,11 @@ A 3-phase fault was simulated at the low-voltage bus using ETAP to determine the
 ## 4. Results
 Fault Current at LV Bus: 28.5 kA
 
-5. Protection Validation
+## 5. Protection Validation
 Breaker Rating: 60 kA → Adequate 
 Fault Current: 28.5 kA → Within breaking capacity 
 
-7. Engineering Interpretation
+## 6. Engineering Interpretation
 
 The high fault current is due to the low impedance of the transformer (5%), which allows a large current to flow during fault conditions.
 
